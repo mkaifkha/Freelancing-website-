@@ -1,0 +1,221 @@
+*{
+    box-sizing:border-box;
+}
+
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    background:black;
+    color:white;
+}
+
+/* NAVBAR */
+nav{
+background:blue;
+    padding:15px 20px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    box-shadow:0 2px 8px rgba(0,0,0,0.08);
+    flex-wrap:wrap;
+}
+nav a{
+    text-decoration:none;
+    margin:5px 10px;
+    color:white;
+    font-weight:bold;
+}
+
+/* SEARCH BAR */
+.search-box{
+    margin-top:15px;
+}
+.search-box input{
+    padding:12px;
+    width:300px;
+    max-width:100%;
+    border-radius:6px;
+    border:1px solid #ccc;
+}
+
+/* HERO */
+.hero{
+    background:black;
+    padding:60px 20px;
+    text-align:center;
+}
+.hero h1{
+    font-size:38px;
+}
+.hero p{
+    font-size:18px;
+    max-width:700px;
+    margin:auto;
+    line-height:1.6;
+}
+
+/* PROFILE */
+.profile-img{
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    margin:20px auto;
+    display:block;
+}
+
+/* STARS */
+.stars{
+    color:#ffc107;
+    font-size:22px;
+    margin-bottom:15px;
+}
+
+/* BUTTONS */
+.btn{
+    background:#ff6b00;
+    color:white;
+    padding:14px 26px;
+    border-radius:6px;
+    text-decoration:none;
+    font-weight:bold;
+    display:inline-block;
+    margin:10px;
+}
+.btn.blue{background:#0d6efd}
+.btn.green{background:#198754}
+
+/* SECTIONS */
+section{
+    max-width:1100px;
+    margin:auto;
+    padding:50px 20px;
+}
+section h2{
+    font-size:28px;
+}
+section p{
+    font-size:16px;
+    line-height:1.7;
+}
+
+/* CARDS */
+.cards{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+.card{
+    background:black;
+    padding:25px;
+    border-radius:10px;
+    width:300px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.08);
+}
+
+/* FORM */
+input,textarea{
+    width:100%;
+    padding:12px;
+    margin:10px 0;
+    border-radius:6px;
+    border:1px solid #ccc;
+}
+
+/* FOOTER */body{
+  background:black;
+  color:white;
+  font-family:Arial;
+  margin:0;
+}
+
+.main-heading{
+  text-align:center;
+  margin:30px;
+  font-size:40px;
+}
+
+nav{
+  text-align:center;
+  margin-bottom:20px;
+}
+
+.btn{
+  background:#ff4d4d;
+  color:white;
+  padding:10px 20px;
+  margin:5px;
+  text-decoration:none;
+  border-radius:25px;
+  display:inline-block;
+}
+
+.btn:hover{
+  background:#ff1a1a;
+}
+
+.center{
+  display:block;
+  width:200px;
+  margin:20px auto;
+  text-align:center;
+}
+
+.box{
+  background:#111;
+  margin:20px;
+  padding:20px;
+  border-radius:15px;
+}
+footer{
+    background:blue;
+    color:white;
+    text-align:center;
+    padding:30px;
+}
+
+/* 📱 MOBILE RESPONSIVE */
+@media(max-width:768px){
+    .hero h1{
+        font-size:30px;
+    }
+    nav{
+        justify-content:center;
+    }
+}body{
+    font-family: Arial;
+    background:#f4f6f;
+}
+
+header {
+    color:white;
+    padding:40px;
+    text-align:center;
+}
+
+section{
+    padding:40px;
+    max-width:900px;
+    margin:auto;
+}
+
+img{
+    width:400px;
+    border-radius:100%;
+}
+
+button{
+    background:blue;
+    color:white;
+    padding:12px 25px;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+button:hover{background:#146c43}
+
+input,textarea{
+    width:100%;
+    padding:10px;
+    margin:8px 0;
+}
